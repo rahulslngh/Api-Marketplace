@@ -1,0 +1,92 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    margin-top: 20px;
+
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none solid rgb(26, 28, 29);
+    text-align: left;
+    word-spacing: 0px;
+}
+
+.card-description {
+    margin-top: 10px;
+    font-size: 13.0px;
+    font-weight: 400px;
+    line-height: 19.2px;
+    text-decoration: none solid rgb(36, 36, 36);
+    text-align: justify;
+    word-spacing: 0px;
+}
+
+/* .card-description {
+    height: 80px;
+    overflow: auto;
+    text-align: center;
+} */
+
+.card-type {
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    text-align: left;
+}
+
+.card:hover {
+    animation: shake 0.2s ease-in-out;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-2px);
+    }
+
+    50% {
+        transform: translateX(2px);
+    }
+
+    75% {
+        transform: translateX(-1px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.card-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+
+.card-header {
+    display: flex;
+}
+
+.card-header p {
+    margin-top: 28px;
+    margin-left: 10px;
+}
+
+.card-type {
+    margin-top: 10px;
+    text-align: left;
+
+}

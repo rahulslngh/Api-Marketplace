@@ -1,0 +1,15 @@
+.image-text-overlay {
+    position: relative;
+}
+
+.image-text-overlay h1 {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: #5879e4;
+    text-align: center;
+   
+    font-family: "Helvetica Neue", sans-serif;
+}

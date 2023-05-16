@@ -1,0 +1,131 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    /* Space the cards evenly across the container */
+}
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: auto;
+    
+    text-align: center;
+    font-family: arial;
+    height: 275px;
+}
+
+.card img{
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color:blue;
+    text-align: center;
+    cursor: pointer;
+    width: auto;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.7;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.col{
+    margin-left: 40px;
+}
+
+
+.big-card-container{
+    
+    margin-top: 100px;
+}
+
+.card-body{
+    margin: auto;
+}
+
+.mylist{
+    list-style: none;
+}
+.pr{
+    display: flex;
+}
+
+.pr-card-body{
+    /* align-items: center; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-md-8{
+    margin: auto;
+    margin-top: 0;
+    justify-content: space-between;
+    
+}
+
+.mylist li{
+    margin: 15px;
+}
+
+.col-md-8 h2{
+    text-align: center;
+}
+
+.service-heading{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.feature-img{
+    height: 500px;
+}
+
+.card-text{
+        margin-top: 10px;
+        font-size: 13.0px;
+        font-weight: 400px;
+        line-height: 19.2px;
+        text-decoration: none solid rgb(36, 36, 36);
+        text-align: justify;
+        word-spacing: 0px;
+        display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 5;
+            overflow: hidden;
+}
+
+
+.card-title{
+   justify-content: center;
+}

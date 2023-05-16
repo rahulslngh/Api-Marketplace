@@ -1,0 +1,19 @@
+.filter-card {
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 300px;
+    
+
+}
+
+.filter-card-element{
+    display: flex;
+}
+
+.filter-card-element p {
+    margin-top: 13px;
+}
