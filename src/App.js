@@ -10,7 +10,7 @@ import HomePage from './Pages/HomePage';
 import EmpApidoc from './Pages/EmpApidoc';
 import Workspace from './Pages/MyWorkspace/Workspace';
 import ManageAPis from './Pages/ManageAPis/ManageAPis';
-
+import ContactPage from './Pages/Contact/ContactPage'
 
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
         <Route path="/emp-api-doc" element={<EmpApidoc/>} />
          <Route path="/workspace" element={<Workspace/>} />
         <Route path="/manage-apis" element={<ManageAPis/>} />
+        <Route path="/contact" element={<ContactPage/>} />
       </Routes>
     </BrowserRouter>
   );

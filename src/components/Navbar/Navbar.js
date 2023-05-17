@@ -29,7 +29,7 @@ const Navbar = () => {
           
           
           <li>
-              <a href="contact.html">Contact</a></li>
+              <Link to ="/contact">Contact</Link></li>
           <li><Link to="/apis" className='list-item'>Apis</Link></li>
           <li><a href="cart.html"><i className="far fa-shopping-bag"></i></a></li>
           <li><div>

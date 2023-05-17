@@ -45,13 +45,13 @@ const ApisPage = () => {
           <div className='main-content'>
           <div className='heading'>API Catalouge</div>
         
-       <div className='card-row' style={{ display: 'flex', flexWrap: 'wrap' }}>
-          {data.map(item => (
-           <Link to={item.apiDoc}><Card className="api-card" data={item} /></Link>
-         ))}
-   
+       <div className='card-row'>
+  {data.map((item, index) => (
+    <Link key={index} to={item.apiDoc}>
+      <Card className="api-card" data={item} />
+    </Link>
+  ))}
 </div>
-
 
        </div>
 

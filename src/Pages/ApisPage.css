@@ -1,14 +1,17 @@
 
-.card-row{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-    margin-top: 20px;
+.card-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(33.33% - 10px), 1fr));
+    gap: 10px;
 }
-.api-card{
-    
-    justify-content: center;
-    
+
+.api-card {
+    width: 100%;
+}
+
+/* Optional: Adjust card appearance */
+.api-card .card-content {
+    /* Add styles for card content */
 }
 
 .heading p{
